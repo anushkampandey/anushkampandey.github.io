@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Cold tumours aren't just immunologically silent. Emerging work in cancer neuroscience suggests they may actively use neural signalling to maintain immune exclusion — and that targeting that neural component could help turn them hot." />
+<title>Cold tumours aren’t just immunologically silent; they may actively use neural signaling to stay that way. — Anushka Pandey</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="post.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-name">Anushka Pandey</a>
+    <ul class="nav-links">
+      <li><a href="index.html#thinking">Thinking</a></li>
+      <li><a href="index.html#research">Research</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Open menu" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#thinking" onclick="toggleMenu()">thinking</a>
+    <a href="index.html#research" onclick="toggleMenu()">research</a>
+    <a href="index.html#contact" onclick="toggleMenu()">contact</a>
+  </div>
+
+  <main class="post-main" style="background-image: linear-gradient(rgba(245,243,238,0.30), rgba(245,243,238,0.40)), url('https://unsplash.com/photos/a-picture-of-a-bunch-of-pink-branches-0LErfovn7zI'); background-size: cover; background-position: center; background-attachment: fixed;">
+
+    <div class="post-meta">
+      <a href="index.html#thinking" class="back-link">← all writing</a>
+      <span class="post-meta-tag">Neuroplasticity</span>
+    </div>
+
+    <h1 class="post-heading">
+      Cold tumours aren’t just immunologically silent; they may actively use neural signaling to stay that way.   
+    </h1>
+    <p class="image-credit">Photo by <a href="https://unsplash.com/@mahdibafande" target="_blank" rel="noopener">Mahdi Bafande</a> on <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></p>
+    <div class="post-info"> 
+      <span class="post-info-date">July 2026</span>
+      <span class="post-info-dot">·</span>
+      <span class="post-info-read">1 min read</span>
+    </div>
+
+    <div class="post-body-content">
+
+      <p>
+Tumours can remodel the nerve fibres that innervate them, and this nerve–tumour crosstalk may help shape the microenvironment in ways that favour immune exclusion rather than immune entry. In that sense, the tumour microenvironment looks less like a fixed barrier and more like a dynamic system that can be rewired.
+</p>
+<p>
+  What makes this especially interesting is that some of this remodeling feels conceptually similar to neuroplasticity — the nervous system’s ability to adapt and reorganize. Of course, that doesn’t mean tumour-associated nerves are doing exactly the same thing as neurons in the brain, but the parallel is useful: both involve active remodeling of circuitry and signaling. And inside tumors, those signals can influence immune-cell function, stromal access, and the overall balance between inflammation and suppression.
+</p>
+<p>
+ So the bigger question is this: if tumors can exploit neural remodeling to preserve immune exclusion, could targeting that neural component help make a cold tumour hot? That is still an emerging idea, but it’s a compelling one — not just by adding more immune signals, but by removing a neural brake that may be helping keep the tumor cold.
+</p>
+    </div>
+
+   
+
+  </main>
+
+  <footer id="contact">
+    <div class="footer-left">
+      <p class="footer-name">Anushka Pandey</p>
+      <p class="footer-sub">Rajasthan, India · Open to dissertation placements. </p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:anushka.mpandey03@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/anushka-pandey-amp1473" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
